@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  apiprodutosalpine:
+    image: apiprodutos-alpine
+    build:
+      context: .
+    ports:
+      - "20000:80"
